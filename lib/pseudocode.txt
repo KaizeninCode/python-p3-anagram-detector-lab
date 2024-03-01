@@ -1,0 +1,5 @@
+Define a class Anagram with an initializer method that takes a word argument and creates a sorted version of the word as an attribute calles sorted_word.
+Define a method match that takes a list of the possible anagrams as an argument.
+Inside the match method, use a list comprehension to create a list that contains only the anagrams in possible_anagrams that have the same sorted letters as the original word.
+In the list comprehension, use the sorted function to sort the letters of each possible anagram and compare it to the sorted_word attribute of the Anagram instance.
+Return the list of matching anagrams.
